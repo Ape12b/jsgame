@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 10;
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+}
+
+.game_gui {
+  width: auto;
+  max-width: 400px;
+  /* Adjust the height as needed */
+  background-color: #f0f0f0;
+  /* Optional background color */
+  border: 1px solid #ccc;
+  /* Optional: Add a border */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 10px;
+  /* Optional: Add padding */
+}
+
+.character_info {
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+.navigation {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.story {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
